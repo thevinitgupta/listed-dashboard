@@ -225,8 +225,6 @@ const Dashboard = () => {
 
     const { data,status } = useSession();
 
-    console.log(data.user.image)
-
 
     if (status==="authenticated") {
         return (
