@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from 'react'
 import { Inter, Lato, Montserrat, Poppins, Open_Sans, Figtree } from 'next/font/google'
 import { BsTags, BsPersonCircle } from "react-icons/bs";

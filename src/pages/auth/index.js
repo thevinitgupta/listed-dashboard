@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from 'react'
 import { Inter, Montserrat, Poppins } from 'next/font/google'
 import {BsGithub, BsLinkedin} from "react-icons/bs";
@@ -17,7 +18,7 @@ const Auth = () => {
     const router = useRouter();
     console.log(router.query);
 
-    
+
     useEffect(()=>{
         if(router.query?.page==="signin"){
             setTab("signin");
