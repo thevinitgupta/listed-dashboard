@@ -6,6 +6,7 @@ import { IoLogoDiscord } from "react-icons/io5";
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useSession, signIn } from 'next-auth/react';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] })
 const poppins = Poppins({ subsets: ['latin'], weight: ['700'] })
@@ -44,7 +45,7 @@ const Signin = ({ toggleTab }) => {
               </div>
               :
               <>
-                <BsGoogle />
+                <Image src="/google.svg" alt="G" height={12} width={12}/>
                 Sign in with Google
               </>}
         </div>

@@ -16,10 +16,10 @@ export default function Home() {
     >
       <div className=''>
         <h1 className="text-6xl text-center max-w-lg font-bold leading-relaxed bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-cyan-400">
-          Mail Synk
+          OpeninApp
           </h1>
       <h2 className='text-center text-5xl font-heading font-extrabold'>
-        Email Superpowered
+        Your Social Companion
         </h2>
         </div>
 
