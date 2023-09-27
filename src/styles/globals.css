@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-hex: #F8FAFF;
+  ;
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: var(--background-hex);
+}
+
+.trapezoid {
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 0% 100%);
+}
+
+
+.blue-gradient {
+  background : #4285F4;
+  background: linear-gradient(to bottom, #4285F4, #286DE0);
+}
+
