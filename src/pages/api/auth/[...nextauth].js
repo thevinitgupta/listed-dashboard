@@ -7,6 +7,7 @@ const authOptions = {
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
      }),
     ],
+    secret : process.env.PROD_SECRET ,
     session: {
      strategy: 'jwt',
     },
